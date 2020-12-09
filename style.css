@@ -1,0 +1,122 @@
+
+	body{
+		background-color: lightgrey;
+	}
+.titlebox{
+	margin-left: 5%;
+	background-color: #1F4172;
+	width: 85vw;
+	height: 80px;
+}
+.titlebox h3{
+	color: #FFFFFF;
+}
+
+.main {
+        background-color: #FFFFFF;
+        width: 90%;
+        height: auto;
+        margin: 3em auto;
+        overflow-y: hidden;
+        border-radius: 1.5em;
+        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    }
+    .sign {
+      outline: none;
+        padding-top: 20px;
+        color: #8C55AA;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    .sign input[type=text]{
+       border: 0;
+      width: 80%;
+      outline: 0;
+      background: transparent;
+      border-bottom: 1px solid blue;
+      margin-left: 5%;
+    }
+    .sign input[type=email]{
+       border: 0;
+      width: 80%;
+      outline: 0;
+      background: transparent;
+      border-bottom: 1px solid blue;
+      margin-left: 5%;
+    }
+    .sign input[type=password]{
+       border: 0;
+      width: 80%;
+      outline: 0;
+      background: transparent;
+      border-bottom: 1px solid blue;
+      margin-left: 5%;
+    }
+    .sign button{
+      border-radius: 10px;
+      border:none;
+      outline: none;
+      background-color: dodgerblue;
+      color: #FFFFFF;
+      margin-left: 20%;
+    }
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px){
+.crosalimage{
+		margin-left: 10%;
+		width: 80vw;
+		height: 70vh;
+	}
+	.crosalimage1{
+		margin-left: 10%;
+		width: 80vw;
+		height: 70vh;
+	}
+}	
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+.crosalimage{
+		margin-left: 5%;
+		width: 90vw;
+		height: 70vh;
+	}
+	.crosalimage1{
+		margin-left: 5%;
+		width: 90vw;
+		height: 70vh;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+	.crosalimage{
+		margin-left: 5%;
+		width: 90vw;
+		height: 60vh;
+	}
+	.crosalimage1{
+		margin-left: 5%;
+		width: 90vw;
+		height: 60vh;
+	}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px){
+.crosalimage{
+		margin-left: 5%;
+		width: 85vw;
+		height: 25vh;
+	}
+	.crosalimage1{
+		margin-left: 5%;
+		width: 85vw;
+		height: 25vh;
+	}
+}
+
